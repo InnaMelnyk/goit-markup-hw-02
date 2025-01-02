@@ -1,8 +1,9 @@
 body {
    font-family: "Roboto",
-    sans-serif; 
+    sans-serif; }
+    ul{list-style-type: none;}
    
-}
+
 a{font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -14,8 +15,10 @@ a:hover{color:#404bbf;text-decoration:none;}
 a:focus, a:active{color: #404bbf;text-decoration: underline;}
 
     .header-section {
+
         width: 1440px;
-    height: 150px;
+            height: 150px;
+            background-color: #ffffff;
 
     }
 
@@ -80,4 +83,155 @@ a:focus, a:active{color: #404bbf;text-decoration: underline;}
                 color: #fff;
        }
 
-       .button 
+       .button{
+        cursor: ;
+        border-radius: 4px;
+        padding: 16px 32px;
+        width: 169px;
+        height: 56px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+     background: #4d5ae5;
+    font-weight: 500;
+        
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #fff;
+       }
+       .button:hover, .button:focus{text-decoration: none; background-color:#404bbf;}
+
+       .adventeges{
+width: 1128px;
+    height: 104px;
+       }
+
+       .adventeges-list{display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+
+       }
+       .adventeges-name{
+        font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            color: #2e2f42;
+       }
+       .description-text{
+        font-weight: 400;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #434455;
+       }
+       .our-team{
+       
+        background-color: #f4f4fd;
+       }
+        .team-header{font-weight: 700;
+            font-size: 36px;
+            line-height: 1.11111;
+            letter-spacing: 0.02em;
+            text-align: center;
+            color: #2e2f42;}
+
+            .list-color{box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+                background: #fff;
+            border-radius: 0 0 4px 4px;
+                padding: 0px 0px 32px 0px;
+                width: 264px;
+                height: 380px;
+              
+           }
+
+
+            .team-list{
+            display: flex;
+            flex-direction: row;         
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+                }
+
+            
+            .staff-name{
+                font-weight: 500;
+                    font-size: 20px;
+                    line-height: 1.2;
+                    letter-spacing: 0.02em;
+                    text-align: center;
+                    color: #2e2f42;
+                    
+            }
+            .staff-position{font-weight: 400;
+                font-size: 16px;
+                line-height: 1.5;
+                letter-spacing: 0.02em;
+                text-align: center;
+                color: #434455;
+            }
+            .our-portfolio{width: 1128px;
+                height: 1000px;}
+                .portfolio-name{font-weight: 700;
+                    font-size: 36px;
+                    line-height: 1.11111;
+                    letter-spacing: 0.02em;
+                    text-align: center;
+                    color: #2e2f42;}
+
+                    .portfolio-list{display: grid;
+                        
+                        grid-template-columns: repeat(3, 1fr);
+                      
+                        gap: 20px;
+                   
+                        padding: 20px;
+                     
+                        justify-items: center;}
+
+                        .portfolio-caption{font-weight: 500;
+                            font-size: 20px;
+                            line-height: 1.2;
+                            letter-spacing: 0.02em;
+                            color: #2e2f42;}
+
+                            .caption-descr{font-weight: 400;
+                                font-size: 16px;
+                                line-height: 1.5;
+                                letter-spacing: 0.02em;
+                                color: #434455;}
+
+
+                                .foot{width: 1440px;
+                                    height: 312px;
+                                background-color: #2e2f42;}
+
+                            
+
+.web-two{font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+                                    .studio-two{font-family: "Raleway",
+                                        sans-serif;
+                                        font-weight: 700;
+                                        font-size: 18px;
+                                        line-height: 1.16667;
+                                        letter-spacing: 0.03em;
+                                        text-transform: uppercase;
+                                        color:white;
+                                    }
+                                    .footer-text{font-weight: 400;
+                                        font-size: 16px;
+                                        line-height: 1.5;
+                                        letter-spacing: 0.02em;
+                                        color: #f4f4fd;
+                                    margin-top: 140px;
+                                margin-right: 1020px;
+                            margin-left: 150px;
+                        margin-bottom: 100px;}
