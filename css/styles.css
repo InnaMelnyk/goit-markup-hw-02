@@ -1,6 +1,8 @@
 body {
    font-family: "Roboto",
-    sans-serif; }
+    sans-serif;
+color:#434455;
+background-color: #FFFFFF; }
     ul{list-style-type: none;}
    
 
@@ -22,30 +24,19 @@ a:focus, a:active{color: #404bbf;text-decoration: underline;}
 
     }
 
-.logo {
-    font-family: "Raleway",
-    sans-serif;
+.logo {color: #4D5AE5;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    font-display:flex;
-   text-decoration: none;
-    text-transform: uppercase;
+    line-height: 1.17;
     letter-spacing: 0.03em;
-    color: #2e2f42;
+    text-transform: uppercase;
+    
 }
-.logo:hover , .logo:focus {text-decoration: none;} 
-.logo:active {text-decoration: underline;}
 
 
-.web{
-    font-family:"Raleway",
-        sans-serif ;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;}
+
+
 
     .studio{
         font-family:"Raleway",
@@ -79,7 +70,7 @@ a:focus, a:active{color: #404bbf;text-decoration: underline;}
                 font-size: 56px;
                 line-height: 1.07143;
                 letter-spacing: 0.02em;
-                text-align: center;
+              
                 color: #fff;
        }
 
@@ -104,11 +95,7 @@ width: 1128px;
     height: 104px;
        }
 
-       .adventeges-list{display: flex;
-        flex-direction: row;
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
+       .adventeges-list{
 
        }
        .adventeges-name{
@@ -133,13 +120,12 @@ width: 1128px;
             font-size: 36px;
             line-height: 1.11111;
             letter-spacing: 0.02em;
-            text-align: center;
+           
             color: #2e2f42;}
 
             .list-color{box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
                 background: #fff;
-            border-radius: 0 0 4px 4px;
-                padding: 0px 0px 32px 0px;
+            
                 width: 264px;
                 height: 380px;
               
@@ -147,11 +133,7 @@ width: 1128px;
 
 
             .team-list{
-            display: flex;
-            flex-direction: row;         
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
+            
                 }
 
             
@@ -160,7 +142,7 @@ width: 1128px;
                     font-size: 20px;
                     line-height: 1.2;
                     letter-spacing: 0.02em;
-                    text-align: center;
+                    
                     color: #2e2f42;
                     
             }
@@ -168,27 +150,19 @@ width: 1128px;
                 font-size: 16px;
                 line-height: 1.5;
                 letter-spacing: 0.02em;
-                text-align: center;
+                
                 color: #434455;
             }
             .our-portfolio{width: 1128px;
-                height: 1000px;}
+               }
                 .portfolio-name{font-weight: 700;
                     font-size: 36px;
                     line-height: 1.11111;
                     letter-spacing: 0.02em;
-                    text-align: center;
+                   
                     color: #2e2f42;}
 
-                    .portfolio-list{display: grid;
-                        
-                        grid-template-columns: repeat(3, 1fr);
-                      
-                        gap: 20px;
-                   
-                        padding: 20px;
-                     
-                        justify-items: center;}
+                    .portfolio-list{}
 
                         .portfolio-caption{font-weight: 500;
                             font-size: 20px;
@@ -204,7 +178,7 @@ width: 1128px;
 
 
                                 .foot{width: 1440px;
-                                    height: 312px;
+                                    
                                 background-color: #2e2f42;}
 
                             
@@ -231,7 +205,4 @@ width: 1128px;
                                         line-height: 1.5;
                                         letter-spacing: 0.02em;
                                         color: #f4f4fd;
-                                    margin-top: 140px;
-                                margin-right: 1020px;
-                            margin-left: 150px;
-                        margin-bottom: 100px;}
+                                    }
