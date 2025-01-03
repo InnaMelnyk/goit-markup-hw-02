@@ -1,28 +1,17 @@
 body {
-   font-family: "Roboto",
-    sans-serif;
+font-family: "Roboto", sans-serif;
 color:#434455;
 background-color: #FFFFFF; }
-    ul{list-style-type: none;}
+
+
+ul{
+    list-style-type: none;}
    
 
-a{font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    text-decoration: none;}
+.header-section {
+ background-color: #ffffff;
+ }
 
-a:hover{color:#404bbf;text-decoration:none;}
-a:focus, a:active{color: #404bbf;text-decoration: underline;}
-
-    .header-section {
-
-        width: 1440px;
-            height: 150px;
-            background-color: #ffffff;
-
-    }
 
 .logo {color: #4D5AE5;
     font-family: "Raleway", sans-serif;
@@ -35,174 +24,185 @@ a:focus, a:active{color: #404bbf;text-decoration: underline;}
 }
 
 
-
-
-
-    .studio{
-        font-family:"Raleway",
-        sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.16667;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #2e2f42;}
-
-        .adress {
-            font-family: "Roboto", sans-serif;
-            font-weight: 400;
-            font-size:16px;
-            letter-spacing: 0.02em;
-            color: #434455
-        }
-
-      
-        
-        .main-section{
-    width: 1440px;
-        height: 400px;
-        background-color: #2e2f42;
-     
-        }
-
-        .main-title{
-            font-weight: 700;
-                font-size: 56px;
-                line-height: 1.07143;
-                letter-spacing: 0.02em;
-              
-                color: #fff;
-       }
-
-       .button{
-        cursor: ;
-        border-radius: 4px;
-        padding: 16px 32px;
-        width: 169px;
-        height: 56px;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-     background: #4d5ae5;
-    font-weight: 500;
-        
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: #fff;
-       }
-       .button:hover, .button:focus{text-decoration: none; background-color:#404bbf;}
-
-       .adventeges{
-width: 1128px;
-    height: 104px;
-       }
-
-       .adventeges-list{
-
-       }
-       .adventeges-name{
-        font-weight: 500;
-            font-size: 20px;
-            line-height: 1.2;
-            letter-spacing: 0.02em;
-            color: #2e2f42;
-       }
-       .description-text{
-        font-weight: 400;
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
-            color: #434455;
-       }
-       .our-team{
-       
-        background-color: #f4f4fd;
-       }
-        .team-header{font-weight: 700;
-            font-size: 36px;
-            line-height: 1.11111;
-            letter-spacing: 0.02em;
-           
-            color: #2e2f42;}
-
-            .list-color{box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-                background: #fff;
-            
-                width: 264px;
-                height: 380px;
-              
-           }
-
-
-            .team-list{
-            
-                }
-
-            
-            .staff-name{
-                font-weight: 500;
-                    font-size: 20px;
-                    line-height: 1.2;
-                    letter-spacing: 0.02em;
-                    
-                    color: #2e2f42;
-                    
-            }
-            .staff-position{font-weight: 400;
-                font-size: 16px;
-                line-height: 1.5;
-                letter-spacing: 0.02em;
-                
-                color: #434455;
-            }
-            .our-portfolio{width: 1128px;
-               }
-                .portfolio-name{font-weight: 700;
-                    font-size: 36px;
-                    line-height: 1.11111;
-                    letter-spacing: 0.02em;
-                   
-                    color: #2e2f42;}
-
-                    .portfolio-list{}
-
-                        .portfolio-caption{font-weight: 500;
-                            font-size: 20px;
-                            line-height: 1.2;
-                            letter-spacing: 0.02em;
-                            color: #2e2f42;}
-
-                            .caption-descr{font-weight: 400;
-                                font-size: 16px;
-                                line-height: 1.5;
-                                letter-spacing: 0.02em;
-                                color: #434455;}
-
-
-                                .foot{width: 1440px;
-                                    
-                                background-color: #2e2f42;}
-
-                            
-
-.web-two{font-weight: 700;
+.studio{
+    font-family:"Raleway", sans-serif;
+    font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
-}
+    color: #2e2f42;}
 
-                                    .studio-two{font-family: "Raleway",
-                                        sans-serif;
-                                        font-weight: 700;
-                                        font-size: 18px;
-                                        line-height: 1.16667;
-                                        letter-spacing: 0.03em;
-                                        text-transform: uppercase;
-                                        color:white;
-                                    }
-                                    .footer-text{font-weight: 400;
-                                        font-size: 16px;
-                                        line-height: 1.5;
-                                        letter-spacing: 0.02em;
-                                        color: #f4f4fd;
-                                    }
+    .header-links{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    }
+    .header-links:hover,.header-links:focus{color:#404bbf;}
+
+    .adress {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size:16px;
+    letter-spacing: 0.02em;
+    color: #434455
+        }
+
+    .contacts{line-height: 1.5;
+    letter-spacing: 0.02;
+    color: #434455;}
+
+    .contacts:hover, .contacts:focus{color:#404bbf;}
+
+        
+    .main-section{
+    background-color: #2e2f42;
+       }
+
+
+    .main-title{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+       }
+
+    .button{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    cursor:pointer ;
+     background: #4d5ae5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+       }
+
+    .button:hover, .button:focus{text-decoration: none; background-color:#404bbf;}
+
+
+    .adventeges{
+
+       }
+
+    .adventeges-list{
+
+       }
+    .adventeges-name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+       }
+
+
+    .description-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height:1.5;
+    letter-spacing:0.02em;
+    color: #434455;
+       }
+
+    .our-team{
+    background-color: #f4f4fd;
+       }
+        
+
+    .team-header{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;}
+
+    .list-color{
+    background: #fff;
+     }
+
+
+    .team-list{
+    }
+
+            
+    .staff-name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+     }
+
+            
+    .staff-position{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    }
+            
+    
+    .our-portfolio{
+               }
+                
+    .portfolio-name{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    color: #2e2f42;}
+
+    
+    .portfolio-list{}
+
+                        
+    .portfolio-caption{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;}
+
+                            
+    .caption-descr{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;}
+
+
+                                
+    .foot{
+    background-color: #2e2f42;}
+
+                            
+
+    .studio-two{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:white;
+    }
+                                    
+    .footer-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
